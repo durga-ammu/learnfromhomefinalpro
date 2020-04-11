@@ -1,0 +1,32 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: medium;
+}
+p {
+  font-size: medium;
+}
+#xy {
+  margin-top: 24px;
+  margin-right: 48px;
+}
+#xyz {
+  margin-top: 24px;
+  margin-right: -80px;
+}
+#xyx {
+  margin-top: 24px;
+  margin-right: -80px;
+}
+#xyzx {
+  margin-top: 60px;
+  margin-right: 140px;
+}

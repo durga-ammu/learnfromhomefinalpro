@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <link  
+           rel="stylesheet" 
+           href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+           <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-pink.min.css" />
+    <script 
+           defer src="https://code.getmdl.io/1.3.0/material.min.js">
+    </script>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODULE 1</title>
+</head>
+<button
+id="xy";
+style="float:right;"
+type="button"
+onclick="gfg_run()">
+ DarkMode
+</button>
+<script>
+function changecolor(color){
+ document.body.style.background=color;
+ document.body.style.color="white";
+ 
+}
+function gfg_run(){
+ changecolor('black');
+}
+</script>
+<br />
+<br/>
+<button
+id="xyz";
+style="float:right;"
+type="button"
+onclick="gfg_Run()">
+ LightMode
+</button>
+<script>
+function changeColor(color){
+ document.body.style.background=color;
+ document.body.style.color="black";
+
+ 
+}
+function gfg_Run(){
+ changeColor('white');
+}
+</script>
+
+<body>
+    <h1>MODULE 1</h1>
+    <i>
+        <p>
+            We will learn about keywords; reserved words in C programming that are part of the syntax. Also, you will learn about identifiers and how to name them.
+        </p>
+    <UL>
+   
+        <H3>KEYWORDS AND IDENTIFIERS</H3>
+        <DIV>
+        <h4>Character set</h4>
+                    <p>A character set is a set of alphabets, letters and some special characters that are valid in C language.
+                    
+                    <h4>Alphabets</h4>
+                   <p>Uppercase: A B C ................................... X Y Z
+                    Lowercase: a b c ...................................... x y z</p>
+            </p>
+            <h4>
+                Digits</h4>
+                <p>
+0 1 2 3 4 5 6 7 8 9
+            </p>
+            <h4>
+                Special Characters</h4>
+                <p></p>
+Special Characters in C Programming
+,	<	>	.	_
+(	)	;	$	:
+%	[	]	#	?
+'	&	{	}	"
+^	!	*	/	|
+-	\	~	+	 
+            </p>
+            <h4>
+                White space Characters</h4>
+                <p></p>
+
+Blank space, newline, horizontal tab, carriage, return and form feed.
+
+
+            </p>
+            <p>
+              <h4> Keywords</h4>
+                   <p>
+                Keywords are predefined, reserved words used in programming that have special meanings to the compiler. Keywords are part of the syntax and they cannot be used as an identifier. For example:
+                int money;
+
+                Here, int is a keyword that indicates money is a variable of type int (integer).
+                
+                As C is a case sensitive language, all keywords must be written in lowercase. Here is a list of all keywords allowed in ANSI C.
+            </p>
+            <p>
+                All these keywords, their syntax, and application will be discussed in their respective topics. However, if you want a brief overview of these keywords without going further, visit List of all keywords in C programming.
+            </p>
+            <h4>C Identifiers</h4>
+            <p>
+                dentifier refers to name given to entities such as variables, functions, structures etc.
+
+Identifiers must be unique. They are created to give a unique name to an entity to identify it during the execution of the program. For example:
+
+int money;
+double accountBalance;
+Here, money and accountBalance are identifiers.
+
+Also remember, identifier names must be different from keywords. You cannot use int as an identifier because int is a keyword.
+
+
+            </p>
+            <h4>
+                Rules for naming identifiers</h4>
+                <p>
+A valid identifier can have letters (both uppercase and lowercase letters), digits and underscores.
+The first letter of an identifier should be either a letter or an underscore.
+You cannot use keywords as identifiers.
+There is no rule on how long an identifier can be. However, you may run into problems in some compilers if the identifier is longer than 31 characters.
+You can choose any name as an identifier if you follow the above rule, however, give meaningful names to identifiers that make sense. 
+            </p>
+        </div>
+            
+</body>
+<script>
+    document.querySelector('#expandedu').addEventListener('click' ,()=> {
+    Expand('educationcontent')
+     });
+     document.querySelector('#bedu').addEventListener('click' ,()=> {
+        expand('educationcontent')});
+</script>
+<a href="page3.html">Module2</a>
+    <p></p>
+    <a href="index.html">HOME</a>
+    
+</html>
